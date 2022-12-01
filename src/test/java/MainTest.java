@@ -4,10 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MainTest {
     Calculator calculator= new Calculator();
-//    @Test
-//    void Addition (){assertEquals(4, main.add(1,3));}
     @Test
-    void Addition1 ()
+    void Addition ()
     {
         assertEquals(3, calculator.add(1,2));
     }
